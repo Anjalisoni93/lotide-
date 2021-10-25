@@ -1,5 +1,5 @@
 const assertArraysEqual = function(arrOne, arrTwo) {
-  if(eqArrays(arrOne, arrTwo)) {
+  if (eqArrays(arrOne, arrTwo)) {
     console.log(`✅✅✅ Assertion passed: ${arrOne} === ${arrTwo}`);
   } else {
     console.log(`🛑🛑🛑 Assertion Failed: ${arrOne} !== ${arrTwo}`);
@@ -8,19 +8,19 @@ const assertArraysEqual = function(arrOne, arrTwo) {
 };
 
 const eqArrays = function(arrNoOne, arrNoTwo) {
-  for(let i = 0; i < arrNoOne.length; i++) {
-    if(arrNoOne[i] !== arrNoTwo[i]) {
+  for (let i = 0; i < arrNoOne.length; i++) {
+    if (arrNoOne[i] !== arrNoTwo[i]) {
       return false;
-    } 
+    }
   }
   return true;
 };
 
 
 const without = function(source, itemsToRemove) {
-  for(let i = 0; i < source.length; i++) {
-    for(let j = 0; j < itemsToRemove.length; j++) {
-      if(source[i] === itemsToRemove[j]) {
+  for (let i = 0; i < source.length; i++) {
+    for (let j = 0; j < itemsToRemove.length; j++) {
+      if (source[i] === itemsToRemove[j]) {
         source.splice(i, 1);
       }
     }

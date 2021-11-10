@@ -18,8 +18,8 @@ describe("#head", () => {
     assert.strictEqual(head(['Hello', 'Lighthouse', 'Labs']), 'Hello');
   });
 
-  it("returns nothing for []", () => {
-    assert.strictEqual(head([]));
+  it("returns undefined for []", () => {
+    assert.strictEqual(head([]), undefined);
   });
 });
 

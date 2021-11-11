@@ -1,0 +1,26 @@
+{
+  "name": "@anjali8993/lotide",
+  "version": "1.0.0",
+  "description": "Lotide : Collection of various functions that can be used in many diffrent projects.",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anjalisoni93/lotide-.git"
+  },
+  "author": "Anjali Soni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anjalisoni93/lotide-/issues"
+  },
+  "homepage": "https://github.com/Anjalisoni93/lotide-#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  }
+}
